@@ -5,7 +5,6 @@ const morgan = require('morgan');
 app.use(morgan('dev'))
 app.listen(5500);
 
-
 app.use(express.static('styles'))
 app.use((req,res,next)=>{
     console.log('Server started')

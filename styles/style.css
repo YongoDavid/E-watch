@@ -392,6 +392,6 @@ justify-content: center;
 
  /* HOVER FOR THE BUTTONS  */
 [href="#"]:hover , #watch-sectionbtn button:hover , #Newsletterbtn button:hover{ 
-    background-color: aqua;
-    color: black;
+    /* background-color: aqua; */
+    color: white;
 }
